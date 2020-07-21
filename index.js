@@ -1,6 +1,9 @@
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 // Add your functions and code here
+function destructivelyRemoveFirstKitten(){
+  kittens.unshift()
+}
 function appendKitten(name){
   return [...kittens,name]
 }
