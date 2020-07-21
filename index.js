@@ -1,6 +1,9 @@
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 // Add your functions and code here
+function appendKitten(name){
+  return [...kittens,name]
+}
 function prependKitten(name){
   return [name,...kittens]
 }
